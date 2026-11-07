@@ -39,7 +39,7 @@ def carregar_dados(url):
         return None
 
 if url_sheets:
-    df = carregar_dados(https://docs.google.com/spreadsheets/d/e/2PACX-1vRtiV86tR1oCqxRnZkyUTlM_tdo3hf6BSg0D1b2aK0b8RcBNCpiHQ-dRq_fYPO3kZRIg6xayfWzYecx/pub?gid=0&single=true&output=csv)
+    df = carregar_dados("https://docs.google.com/spreadsheets/d/e/2PACX-1vRtiV86tR1oCqxRnZkyUTlM_tdo3hf6BSg0D1b2aK0b8RcBNCpiHQ-dRq_fYPO3kZRIg6xayfWzYecx/pub?gid=0&single=true&output=csv")
 else:
     df = None
 
